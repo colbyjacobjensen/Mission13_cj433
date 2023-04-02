@@ -1,6 +1,5 @@
 {
-  "extends": ["react-app", "eslint:recommended", "plugin:prettier/recommended"],
-  "plugins": ["prettier"],
+  "extends": ["react-app", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": [
       "error",
