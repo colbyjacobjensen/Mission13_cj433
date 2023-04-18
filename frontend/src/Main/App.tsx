@@ -1,8 +1,8 @@
 import './App.css';
-import HomePage from './Home';
-import MovieCollection from './MovieCollection';
-import Podcasts from './Podcast';
-import Navbar from './Navbar';
+import HomePage from '../Home';
+import MovieCollection from '../MovieCollection';
+import Podcasts from '../Podcast';
+import Navbar from '../Navbar';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
