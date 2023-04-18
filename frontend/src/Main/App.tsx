@@ -1,9 +1,10 @@
 import './App.css';
 import HomePage from '../Home';
-import MovieCollection from '../MovieCollection';
+import MovieList from '../MovieList';
 import Podcasts from '../Podcast';
 import Navbar from '../Navbar';
 import { Route, Routes } from 'react-router-dom';
+import MovieCollection from '../MovieCollection';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/Podcast" element={<Podcasts />} />
-          <Route path="/MovieCollection" element={<MovieCollection />} />
+          <Route path="/MovieList" element={<MovieList />} />
         </Routes>
       </div>
     </>
